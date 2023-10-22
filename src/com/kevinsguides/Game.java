@@ -1,7 +1,5 @@
 package com.kevinsguides;
 
-import java.util.Scanner;
-
 /**
  * Contains all Game logic
  */
@@ -134,6 +132,8 @@ public class Game {
         }
         else{
             System.out.println("Push.");
+            pushes++;
+        
         }
 
         //Start a new round
